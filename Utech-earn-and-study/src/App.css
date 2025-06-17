@@ -1,0 +1,87 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card, .modern-card {
+  background: #fff;
+  border-radius: 1.25rem;
+  box-shadow: 0 4px 32px #0001, 0 1.5px 6px #b6c3e633;
+  padding: 2rem 2.5rem;
+  margin: 2rem auto;
+  max-width: 420px;
+  transition: box-shadow 0.2s;
+}
+
+button, .modern-btn {
+  background: linear-gradient(90deg, #2563eb 0%, #4f46e5 100%);
+  color: #fff;
+  border: none;
+  border-radius: 0.75rem;
+  padding: 0.75rem 2rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  box-shadow: 0 2px 8px #2563eb22;
+  cursor: pointer;
+  transition: background 0.2s, box-shadow 0.2s, transform 0.1s;
+}
+button:hover, .modern-btn:hover {
+  background: linear-gradient(90deg, #1d4ed8 0%, #6366f1 100%);
+  box-shadow: 0 4px 16px #2563eb33;
+  transform: translateY(-2px) scale(1.03);
+}
+input, select, textarea {
+  border-radius: 0.75rem;
+  border: 1.5px solid #cbd5e1;
+  padding: 0.75rem 1rem;
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  transition: border 0.2s;
+}
+input:focus, select:focus, textarea:focus {
+  border: 1.5px solid #2563eb;
+  outline: none;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(24px); }
+  to { opacity: 1; transform: none; }
+}
