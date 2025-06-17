@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 interface LoginFormProps {
-  onLogin: (employee: { name: string; id: string }) => void;
+  onLogin: (student: { name: string; id: string }) => void;
 }
 
 const LoginForm: React.FC<LoginFormProps> = ({ onLogin }) => {

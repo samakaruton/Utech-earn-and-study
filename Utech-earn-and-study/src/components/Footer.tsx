@@ -17,7 +17,7 @@ const Footer: React.FC = () => (
       zIndex: 1000,
     }}
   >
-    © 2024 University of Technology, Jamaica. All rights reserved.
+    © 2025 University of Technology, Jamaica. All rights reserved.
   </footer>
 );
 
