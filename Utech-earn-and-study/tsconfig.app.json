@@ -19,7 +19,7 @@
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "erasableSyntaxOnly": true,
+    //"erasableSyntaxOnly": true, //this is causing the error when trying to run the project in vscode  
     "noFallthroughCasesInSwitch": true,
     "noUncheckedSideEffectImports": true
   },
